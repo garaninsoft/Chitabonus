@@ -13,7 +13,7 @@ android {
 
     defaultConfig {
         applicationId = "com.garaninsoft.chitabonus"
-        minSdk = 23
+        minSdk = 26
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -79,4 +79,14 @@ dependencies {
     implementation(libs.androidx.room.runtime)
     ksp(libs.androidx.room.compiler)
     implementation(libs.androidx.room.ktx)
+
+    implementation(libs.datetime)
+    implementation(libs.core)
+
+    // Для работы с галереей и камерой
+    implementation(libs.coil.compose)
+    implementation(libs.accompanist.permissions)
+
+    // Для выбора файлов из галереи
+    implementation(libs.androidx.lifecycle.runtime.compose)
 }

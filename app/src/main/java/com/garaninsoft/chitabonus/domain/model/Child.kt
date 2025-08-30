@@ -1,11 +1,11 @@
 package com.garaninsoft.chitabonus.domain.model
 
-import java.sql.Date
+import java.util.Date
 
 data class Child(
-    val id: Long,
+    val id: Long = 0,
     val name: String,
     val birthDate: Date,
-    val avatarUri: String?,
+    val avatarUri: String? = null,
     val currentBalance: Double
 )

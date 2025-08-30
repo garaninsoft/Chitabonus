@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Chitabonus</string>
+
+    <string name="avatar">Аватар</string>
+    <string name="select_avatar">Выбрать аватар</string>
+    <string name="change_avatar">Изменить аватар</string>
+    <string name="gallery">Галерея</string>
+    <string name="camera">Камера</string>
+    <string name="cancel">Отмена</string>
 </resources>
